@@ -9,7 +9,7 @@ const getCurrentTime = new FunctionTool({
     city: z.string().describe("The name of the city for which to retrieve the current time."),
   }),
   execute: ({city}) => {
-    return {status: 'success', report: `The current time in ${city} is Nahi batarha lwade!!`};
+    return {status: 'success', report: `The current time in ${city} is 10:00 AM!!`};
   },
 });
 
